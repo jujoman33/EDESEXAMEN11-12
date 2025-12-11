@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2">
+  <diagram name="POO_Modelo" id="0">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e1" style="endArrow=block;endFill=1;" parent="1" source="Jg6A3VH_nQrFtsALPSCS-12" target="NR4y4D40vt2uHa453_LC-3" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="580" y="176.66666666666652" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" style="endArrow=block;endFill=1;" parent="1" source="Jg6A3VH_nQrFtsALPSCS-16" target="NR4y4D40vt2uHa453_LC-3" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="580" y="321.48148148148175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" style="startArrow=diamond;startFill=1;endArrow=none;endFill=0;" parent="1" source="NR4y4D40vt2uHa453_LC-3" target="Jg6A3VH_nQrFtsALPSCS-8" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="410" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="endArrow=none;" parent="1" source="NR4y4D40vt2uHa453_LC-3" target="Jg6A3VH_nQrFtsALPSCS-20" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="410" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" style="startArrow=diamond;startFill=0;endArrow=none;endFill=0;" parent="1" source="Jg6A3VH_nQrFtsALPSCS-24" target="NR4y4D40vt2uHa453_LC-3" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="607.0270270270271" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NR4y4D40vt2uHa453_LC-3" value="vivienda" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="190" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-2" value="-direccion&lt;div&gt;-metros cuadrados&lt;/div&gt;&lt;div&gt;-alquiler&lt;/div&gt;&lt;div&gt;-estado&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="NR4y4D40vt2uHa453_LC-3">
+          <mxGeometry x="5" y="35" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-8" value="HABITACIONES" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-9" value="NOMBRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-10" value="SUPERFICIE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-8">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-11" value="VENTANA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-8">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-12" value="PISOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-13" value="NUMERO PUERTA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-12">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-14" value="GARAJE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-12">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-15" value="TRASTERO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-12">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-16" value="UNIFAMILIAR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-17" value="PATIO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-16">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-18" value="ADOSADO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-16">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-19" value="APARCAMIENTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-16">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-20" value="INQUILINO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-21" value="NOMBRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-22" value="DNI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-20">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-23" value="TELEFONO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-20">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-24" value="C.VECINOS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-25" value="NOMBRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-24">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-26" value="DIRECCION" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-24">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg6A3VH_nQrFtsALPSCS-27" value="PRESUPUESTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Jg6A3VH_nQrFtsALPSCS-24">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
